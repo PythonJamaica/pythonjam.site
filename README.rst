@@ -73,8 +73,9 @@ Contribute
 Support
 -------
 
-If you are having issues, please let us know.
-Use the contact information at http://pythonjam.org.jm
+Please report any problems using our Issue Tracker: https://github.com/PythonJamaica/pythonjam.site/issues
+
+Then alert us via any of our community channels mentioned at http://pythonjam.org.jm/join
 
 
 License
