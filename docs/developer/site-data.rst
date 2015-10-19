@@ -15,7 +15,7 @@ Retrieving the Site Data
 
 A version of the sanitized data can be retrieved automatically using the following command from within your buildout::
 
-    bin/pulldevdata
+   bin/pulldevdata
 
 
 Releasing Site Data
@@ -31,7 +31,7 @@ We are careful not to publish any data of our site users. To achieve this we
 
 ::
 
-    bin/sanitize
+   bin/sanitize
 
 The sanitized version of the data is located in a folder of your buildout called `sanitized`.
 
