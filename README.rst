@@ -35,7 +35,7 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    bin/buildout
    bin/pulldevdata
 
-Staring the site
+Starting the site
 ~~~~~~~~~~~~~~~~~~~
 
 To start the site, run the following command::
