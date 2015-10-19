@@ -44,13 +44,23 @@ To start the site, run the following command::
 
 This will launch the site, once you see "INFO Zope Ready to handle requests"
 
-From the IDE click 1) "Preview running app" and 2) click to "pop out in a new windows"
+From the IDE click 1) "Preview running app" and 2) click to "pop out in a new window"
 
 .. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/previewrunningapp.png
 
-Then click preview 
+
+You can now to view your Plone site. This will reveal a working copy of the PythonJamaica site.
 
 .. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/clicktopreview.png
+
+Logging in
+~~~~~~~~~~~~~~~
+
+You can login by visiting /login and using the following credentials::
+
+    username: admin
+    password: admin
+
 
 Contribute
 ----------
