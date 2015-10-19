@@ -9,7 +9,7 @@ It is used to power http://pythonjam.org.jm
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
+Full documentation for end users can be found in the "docs" folder, and is also available online at http://pythonjamaica-website.readthedocs.org/
 
 
 Development
@@ -54,7 +54,7 @@ Contribute
 
 - Issue Tracker: https://github.com/PythonJamaica/pythonjam.site/issues
 - Source Code: https://github.com/PythonJamaica/pythonjam.site
-- Documentation: https://github.com/PythonJamaica/pythonjam.site
+- Documentation: http://pythonjamaica-website.readthedocs.org/
 
 
 Support
