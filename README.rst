@@ -35,6 +35,22 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    bin/buildout
    bin/pulldevdata
 
+Staring the site
+~~~~~~~~~~~~~~~~~~~
+
+To start the site, run the following command::
+
+   bin/instance fg
+
+This will launch the site, once you see "INFO Zope Ready to handle requests"
+
+From the IDE click 1) "Preview running app" and 2) click to "pop out in a new windows"
+
+.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/previewrunningapp.png
+
+Then click preview 
+
+.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/clicktopreview.png
 
 Contribute
 ----------
