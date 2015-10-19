@@ -1,12 +1,23 @@
-====================
-pythonjam.site
-====================
+=====================================
+PythonJamaica Website Documentation
+=====================================
 
-User documentation
+Site Administration Documentation
+------------------------------------
+
+.. toctree::
+   :hidden::
+   
+   siteadmin/managing-users
+   siteadmin/posting-updates
+   siteadmin/the-blog
+
+Developer Documentation
+------------------------------------
 
 .. toctree::
    :hidden::
    
    nutshell
-   dev-quickstart
-   site-data
+   developer/dev-quickstart
+   developer/site-data
