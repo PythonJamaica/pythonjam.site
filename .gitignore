@@ -4,6 +4,8 @@
 *.pyo
 eggs/
 venv/
+sanitized/
+*.tar.gz
 .zedstate
 .installed.cfg
 .mr.developer.cfg

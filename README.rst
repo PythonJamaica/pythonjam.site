@@ -33,6 +33,7 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    virtualenv venv
    venv/bin/python bootstrap-buildout.py
    bin/buildout
+   bin/pulldevdata
 
 
 Installation

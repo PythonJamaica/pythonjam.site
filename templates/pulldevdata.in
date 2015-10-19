@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DEVDATA_URL=https://github.com/PythonJamaica/pythonjam.site/releases/download/20151019/pythonjam.site.data.tar.gz
+DEVDATA_TARBALL=pythonjam.site.data.tar.gz
+
+echo "----> pulling dev data"
+wget $DEVDATA_URL
+
+echo "----> unpacking dev data"
+tar xfz $DEVDATA_TARBALL
