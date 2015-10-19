@@ -5,6 +5,9 @@ PythonJamaica Website Documentation
 Quick Start
 ---------------
 
+.. toctree::
+   :hidden::
+
    developer/dev-quickstart
 
 Site Administration Documentation
