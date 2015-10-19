@@ -76,7 +76,7 @@ some sample data.
 
 To quickly achieve this, run the following command from within your buildout directory::
 
-    bin/pulldevdata
+   bin/pulldevdata
 
 
 Start the site
