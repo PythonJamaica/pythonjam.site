@@ -22,6 +22,8 @@ Start by creating a workspace (the default is fine).
 Create a new workspace and under "Clone from Git" use the following git repo URL
 https://github.com/PythonJamaica/pythonjam.site.git
 
+.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/createnewworkspace.png
+
 Then run the following commands in a terminal::
 
    sudo apt-get install libxslt-dev libxml2-dev -y
