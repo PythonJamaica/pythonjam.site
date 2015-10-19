@@ -1,0 +1,4 @@
+aggregator,plone.app.contenttypes.content.Collection
+copy2_of_training-running,plone.app.contenttypes.content.NewsItem
+copy_of_training-running,plone.app.contenttypes.content.NewsItem
+training-running,plone.app.contenttypes.content.NewsItem

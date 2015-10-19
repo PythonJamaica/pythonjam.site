@@ -1,0 +1,35 @@
+{
+    "audience": [
+        "Professionals", 
+        "Beginner", 
+        "Advanced"
+    ], 
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "In this talk we explore the blah of why we did blah", 
+    "details": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_details.htm"
+    }, 
+    "effective": "2015-10-14 21:37:00", 
+    "email": "david@alteroo.com", 
+    "image": {
+        "contenttype": "image/jpeg", 
+        "file": "_field_image_screenshot.jpg", 
+        "filename": "screenshot.jpg"
+    }, 
+    "language": "en-gb", 
+    "lanyrd": "http://blah.com/adfaere", 
+    "plone.uuid": "bcfc77aacbfb4d69967219847ba90689", 
+    "speaker": "David Bain", 
+    "speaker_biography": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_speaker_biography.htm"
+    }, 
+    "title": "Building the PythonJamaica Website", 
+    "type_of_talk": "Training"
+}

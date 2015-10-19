@@ -1,0 +1,21 @@
+query: 
+sort_on: 
+sort_reversed: False
+limit: 1000
+item_count: 30
+customViewFields: Title||Creator||Type||ModificationDate
+allow_discussion: 
+id: about-us
+exclude_from_nav: False
+title: About Us
+description: 
+subjects: 
+language: en-gb
+effective: 
+expires: 
+creators: admin
+contributors: 
+rights: 
+relatedItems: 
+Portal-Type: Collection
+

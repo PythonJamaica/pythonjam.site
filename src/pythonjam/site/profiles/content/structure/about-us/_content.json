@@ -1,0 +1,26 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "exclude_from_nav": false, 
+    "id": "about-us", 
+    "item_count": 30, 
+    "language": "en-gb", 
+    "limit": 1000, 
+    "plone.uuid": "71d93333fb44448585dab482d457fd2a", 
+    "query": [
+        "{u'i': u'end', u'o': u'plone.app.querystring.operation.date.lessThan', u'v': u'2015-10-15'}", 
+        "{u'i': u'path', u'o': u'plone.app.querystring.operation.string.absolutePath', u'v': u'/'}", 
+        "{u'i': u'path', u'o': u'plone.app.querystring.operation.string.relativePath', u'v': u'../'}"
+    ], 
+    "relatedItems": [], 
+    "sort_reversed": false, 
+    "title": "About Us"
+}

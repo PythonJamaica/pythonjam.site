@@ -1,0 +1,25 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "description": "Content that needs review", 
+    "exclude_from_nav": false, 
+    "id": "pending-content", 
+    "item_count": 30, 
+    "language": "en-gb", 
+    "limit": 1000, 
+    "plone.uuid": "550e8d7a024e44f59858663f6340c9ef", 
+    "query": [
+        "{u'i': u'review_state', u'o': u'plone.app.querystring.operation.selection.any', u'v': [u'pending']}"
+    ], 
+    "relatedItems": [], 
+    "sort_reversed": false, 
+    "title": "Pending Content"
+}

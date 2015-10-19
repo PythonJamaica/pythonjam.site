@@ -1,0 +1,5 @@
+mailer,FormMailerAdapter
+replyto,FormStringField
+topic,FormStringField
+comments,FormTextField
+thank-you,FormThanksPage

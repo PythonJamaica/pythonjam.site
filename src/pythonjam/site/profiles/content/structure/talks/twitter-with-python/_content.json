@@ -1,0 +1,34 @@
+{
+    "audience": [
+        "Professionals", 
+        "Advanced", 
+        "Beginner"
+    ], 
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "In this talk we explore the blah of why we did blah", 
+    "details": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_details.htm"
+    }, 
+    "effective": "2015-10-14 21:37:29", 
+    "email": "david@alteroo.com", 
+    "image": {
+        "contenttype": "image/jpeg", 
+        "file": "_field_image_screenshot.jpg", 
+        "filename": "screenshot.jpg"
+    }, 
+    "language": "en-gb", 
+    "plone.uuid": "23ab2aae817c4e9a98a8eeed8a359b3a", 
+    "speaker": "David Bain", 
+    "speaker_biography": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_speaker_biography.htm"
+    }, 
+    "title": "Hacking Twitter with Python", 
+    "type_of_talk": "Training"
+}

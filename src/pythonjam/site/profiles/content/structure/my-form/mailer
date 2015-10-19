@@ -1,0 +1,61 @@
+id: mailer
+title: Mailer
+description: E-Mails Form Input
+subject: 
+relatedItems: 
+location: 
+language: en-gb
+effectiveDate: None
+expirationDate: None
+creation_date: 2015/10/10 14:34:16.704347 US/Eastern
+modification_date: 2015/10/10 14:34:17.141108 US/Eastern
+creators: admin
+contributors: 
+rights: 
+allowDiscussion: None
+excludeFromNav: False
+recipient_name: 
+recipient_email: 
+to_field: #NONE#
+cc_recipients: 
+bcc_recipients: 
+replyto_field: replyto
+msg_subject: Form Submission
+subject_field: topic
+body_pre: 
+body_post: 
+body_footer: 
+showAll: True
+showFields: 
+includeEmpties: True
+body_pt: <html xmlns="http://www.w3.org/1999/xhtml">
+  
+    <head><title></title></head>
+  
+    <body>
+      <p tal:content="here/getBody_pre | nothing" />
+      <dl>
+          <tal:block repeat="field options/wrappedFields | nothing">
+              <dt tal:content="field/fgField/widget/label" />
+              <dd tal:content="structure python:field.htmlValue(request)" />
+          </tal:block>
+      </dl>
+      <p tal:content="here/getBody_post | nothing" />
+      <pre tal:content="here/getBody_footer | nothing" />
+    </body>
+  </html>
+  
+body_type: html
+xinfo_headers: HTTP_X_FORWARDED_FOR
+  REMOTE_ADDR
+  PATH_INFO
+additional_headers: 
+gpg_keyid: 
+subjectOverride: 
+senderOverride: 
+recipientOverride: 
+ccOverride: 
+bccOverride: 
+execCondition: 
+Content-Type: text/plain
+

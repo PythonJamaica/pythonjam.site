@@ -1,0 +1,15 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "Site News", 
+    "exclude_from_nav": false, 
+    "id": "news", 
+    "language": "en-gb", 
+    "nextPreviousEnabled": false, 
+    "plone.uuid": "cde40e6d6fc547fb8daa19eefe0976a5", 
+    "relatedItems": [], 
+    "rights": "", 
+    "title": "News"
+}

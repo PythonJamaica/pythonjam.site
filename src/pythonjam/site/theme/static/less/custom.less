@@ -1,0 +1,233 @@
+/* highlight js */
+.hljs{display:block;overflow-x:auto;padding:0.5em;background:#f0f0f0;-webkit-text-size-adjust:none}.hljs,.hljs-subst,.hljs-tag .hljs-title,.nginx .hljs-title{color:black}.hljs-string,.hljs-title,.hljs-constant,.hljs-parent,.hljs-tag .hljs-value,.hljs-rule .hljs-value,.hljs-preprocessor,.hljs-pragma,.hljs-name,.haml .hljs-symbol,.ruby .hljs-symbol,.ruby .hljs-symbol .hljs-string,.hljs-template_tag,.django .hljs-variable,.smalltalk .hljs-class,.hljs-addition,.hljs-flow,.hljs-stream,.bash .hljs-variable,.pf .hljs-variable,.apache .hljs-tag,.apache .hljs-cbracket,.tex .hljs-command,.tex .hljs-special,.erlang_repl .hljs-function_or_atom,.asciidoc .hljs-header,.markdown .hljs-header,.coffeescript .hljs-attribute,.tp .hljs-variable{color:#800}.smartquote,.hljs-comment,.hljs-annotation,.diff .hljs-header,.hljs-chunk,.asciidoc .hljs-blockquote,.markdown .hljs-blockquote{color:#888}.hljs-number,.hljs-date,.hljs-regexp,.hljs-literal,.hljs-hexcolor,.smalltalk .hljs-symbol,.smalltalk .hljs-char,.go .hljs-constant,.hljs-change,.lasso .hljs-variable,.makefile .hljs-variable,.asciidoc .hljs-bullet,.markdown .hljs-bullet,.asciidoc .hljs-link_url,.markdown .hljs-link_url{color:#080}.hljs-label,.ruby .hljs-string,.hljs-decorator,.hljs-filter .hljs-argument,.hljs-localvars,.hljs-array,.hljs-attr_selector,.hljs-important,.hljs-pseudo,.hljs-pi,.haml .hljs-bullet,.hljs-doctype,.hljs-deletion,.hljs-envvar,.hljs-shebang,.apache .hljs-sqbracket,.nginx .hljs-built_in,.tex .hljs-formula,.erlang_repl .hljs-reserved,.hljs-prompt,.asciidoc .hljs-link_label,.markdown .hljs-link_label,.vhdl .hljs-attribute,.clojure .hljs-attribute,.asciidoc .hljs-attribute,.lasso .hljs-attribute,.coffeescript .hljs-property,.hljs-phony{color:#88f}.hljs-keyword,.hljs-id,.hljs-title,.hljs-built_in,.css .hljs-tag,.hljs-doctag,.smalltalk .hljs-class,.hljs-winutils,.bash .hljs-variable,.pf .hljs-variable,.apache .hljs-tag,.hljs-type,.hljs-typename,.tex .hljs-command,.asciidoc .hljs-strong,.markdown .hljs-strong,.hljs-request,.hljs-status,.tp .hljs-data,.tp .hljs-io{font-weight:bold}.asciidoc .hljs-emphasis,.markdown .hljs-emphasis,.tp .hljs-units{font-style:italic}.nginx .hljs-built_in{font-weight:normal}.coffeescript .javascript,.javascript .xml,.lasso .markup,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata{opacity:0.5}
+#top .light-bg {
+    background-color:transparent;
+}
+
+.plone-toolbar-left #edit-zone {
+    z-index: 1004;
+  }
+  
+ body .press-logo {
+    display: inline-block;
+    width: 15%;
+  }
+body .feature-icon {
+    top: 18px;
+    position: relative;
+}
+/* *** default font size for content ** */
+#content {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #383737;
+}
+
+/* *** editing view */
+.outer-wrapper {
+    margin-top: 40px;
+}
+/* *** the byline ** */
+.documentByLine {
+    font-size: 11px;
+    display:inline-block;
+    color:black;
+    border-radius:20px;
+    background:#dedede;
+    margin:0px;
+    padding:1px 10px;
+}
+.whats-happening .documentByLine span, .whats-happening .documentByLine a  {
+    display:inline;
+}
+/* ** buttons on front page */
+a.button.hollow:hover,
+a.button:hover {
+    text-decoration:none;
+     box-shadow:none;
+    
+}
+
+
+.button.hollow {
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+    border: 1px solid white;
+}
+/* *** frontpage upcoming */
+.whats-happening article.entry {
+    background-color: rgba(243, 244, 244, 0.81);
+    padding: 20px;
+    margin-top:5px;
+}
+.whats-happening article > header{font-size:20px;}
+.whats-happening article > header a{color:#333; display:block;}
+
+/* **** headers */
+.headers-left() {
+    h1, h2, h3, h4 {
+        text-align: left;
+    }
+}
+
+#content {
+    .headers-left();
+}
+p {margin-top:15px}
+      .portaltype-news-item a.btn-primary {
+        font-size: 24px;
+       }
+      div.portletAssignments div.portletHeader {
+      padding: 0.42em 1em;
+      background: #DBA567;
+      line-height: normal;
+    }
+    .gl-menu-link:hover {
+  background-color: none;
+  box-shadow: rgba(181, 181, 181, 0.49) 0px 3px 0px 0px inset;
+  color: rgb(255, 211, 62);
+}
+    .section-frontpage   .gl-whats-happening {
+        margin: 10px 10%;
+    }
+    .section-frontpage div.tileImage {
+      width: auto;
+      float: left;
+      margin-right: 0;
+    }
+    .section-front-page .tileFooter span {
+    display: none;
+}
+.section-blog .section.innerpage {
+    margin-top: 0;
+}
+
+    .summary img {
+    margin-right: 6px;
+}
+    .zfield input[type="text"][size] {
+      width:100%;
+    }
+    body input#title {
+    font-size: 125%;
+     }
+     /* clean up badge view */
+     .portaltype-badge legend,
+     .portaltype-badge .discreet,
+     .portaltype-badge label.gl-form-label {
+        display: none;
+      } 
+      /* not sure why I did this */
+/*     .pb-ajax label,.pb-ajax legend,.pb-ajax .discreet {
+    display: none;
+} */
+
+       /* badge listing customizations */
+       .site-plone.section-badges .tileItem span.description {
+      display: inline;
+      padding-top: 0px;
+      width: 45%;
+      float: left;
+    }
+    a.badge-link img, .site-plone.section-badges img.tileImage  {
+        background: white;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+        right:12px;
+        float:none;
+        border:1px solid #ccc;
+        border-radius:30px;
+    
+    }
+    
+    .site-plone.section-badges #content img.tileImage{float:none;}
+    
+    .site-plone.section-badges div.tileImage {
+        width: auto;
+    }
+    
+    .site-plone.section-badges a.summary.url:link,.site-plone.section-badges a.summary.url:visited {
+        color: rgb(55, 48, 48) !important;
+    }
+    
+    .site-plone.section-badges p.tileFooter {
+        display: none;
+    }
+
+    /* ***** banner 
+    */
+    body #banner .documentAuthor a:link, body #banner .documentAuthor a:visited {
+      color: #1E204F;
+    }
+    div#banner {
+    border-bottom: 3px solid #FED100;
+   }
+    .portraitPhoto {
+      background-color:white;
+      border-radius: 50px;
+      width:100px;
+   }
+    #banner .contentHistory{display:none;}
+    #banner .documentModified span{display:none;}
+   #banner .portraitPhoto {
+       position: absolute;
+       right: 31px;
+       margin-top: 0px;
+       margin-left: 19px;
+   }
+/*   div#banner {
+    background-image: url(image);
+}*/
+/* *** blog customizations   */
+.section-blog .tileItem span.description {
+  display: block;
+  padding-top: 0px;
+  font-size: 145%;
+  width: 95%;
+  float: left;
+}
+.template-blogitem_view img.newsImage {
+    display: none; /* hide the newsimage as it shows in the banner */
+}
+
+div#portal-personaltools-wrapper a {
+    color: rgb(65, 69, 80);
+    text-decoration: none;
+}
+
+
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e {
+    position: fixed;
+    top: 190px;
+    background: rgb(21, 224, 24);
+}
+
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e a,
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e a:link,
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e a:visited
+{
+    font-size: 16px;
+    text-decoration:none;
+    border-bottom: 0;
+    color:white;
+    padding:10px;
+
+}
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e a:hover{
+    background:#ccc;
+}
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e
+dt.portletHeader {display:none;}
+
+@media screen and (max-width:780px){
+
+div#portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f73697465732f707974686f6e6a616d2e6f72672e6a6d2f706c6f6e652f6a6f696e2f736c61636b0a707974686f6e2d6a616d616963612d736c61636b2d6c6f67696e {
+    position: relative;
+    top: 22px;
+    background: rgb(21, 224, 24);
+}
+    }

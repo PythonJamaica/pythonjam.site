@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="pythonjam.site"
+      interface="pythonjam.site.interfaces.IPythonjamSiteLayer"
+      />
+</layers>

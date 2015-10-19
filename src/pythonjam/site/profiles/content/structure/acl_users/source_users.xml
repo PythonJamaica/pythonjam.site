@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<zodb-users>
+ <user user_id="dbain" login_name="dbain" password_hash="{SSHA}0FtddbZlNMVAeZV3XrrVIivaVRRKGlzsLroc" />
+</zodb-users>

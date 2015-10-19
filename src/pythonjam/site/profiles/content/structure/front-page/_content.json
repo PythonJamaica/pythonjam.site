@@ -1,0 +1,20 @@
+{
+    "changeNote": "", 
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "Congratulations! You have successfully installed Plone.", 
+    "exclude_from_nav": false, 
+    "id": "front-page", 
+    "language": "en-gb", 
+    "plone.uuid": "84d25ffc20494e4e849e40d029638422", 
+    "relatedItems": [], 
+    "rights": "", 
+    "text": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_text.htm"
+    }, 
+    "title": "Welcome to Plone"
+}

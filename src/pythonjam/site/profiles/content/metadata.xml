@@ -1,0 +1,7 @@
+<metadata>
+  <version>1</version>
+  <dependencies>
+    <dependency>profile-pythonjam.site:default</dependency>
+    <dependency>profile-pythonjam.migration:default</dependency>
+  </dependencies>
+</metadata>

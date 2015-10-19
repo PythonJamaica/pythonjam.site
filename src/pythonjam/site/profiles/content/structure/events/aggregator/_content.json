@@ -1,0 +1,27 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "description": "Site Events", 
+    "exclude_from_nav": false, 
+    "id": "aggregator", 
+    "item_count": 30, 
+    "limit": 1000, 
+    "plone.uuid": "f1f1d8abbefa49e4bf23657e5326d895", 
+    "query": [
+        "{'i': 'portal_type', 'o': 'plone.app.querystring.operation.selection.is', 'v': ['Event']}", 
+        "{'i': 'review_state', 'o': 'plone.app.querystring.operation.selection.is', 'v': ['published']}"
+    ], 
+    "relatedItems": [], 
+    "rights": "", 
+    "sort_on": "start", 
+    "sort_reversed": true, 
+    "title": "Events"
+}

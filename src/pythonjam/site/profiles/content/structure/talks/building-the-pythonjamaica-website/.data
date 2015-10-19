@@ -1,0 +1,45 @@
+type_of_talk: Training
+details: =?utf-8?q?=3Cp=3ELorem_ipsum_dolor_sit_amet=2C_consectetur_adipiscing_eli?=
+ =?utf-8?q?t=2E_In_ornare_aliquam_ipsum_sit_amet_venenatis=2E_Cras_ut_cong?=
+ =?utf-8?q?ue_ligula=2E_Proin_a_nisl_et_quam_semper_sollicitudin_a_egestas?=
+ =?utf-8?q?_erat=2E_Praesent_porttitor_volutpat_ex_in_dictum=2E_Aliquam_a_?=
+ =?utf-8?q?scelerisque_lorem=2C_convallis_mollis_nunc=2E_Ut_pulvinar_sem_q?=
+ =?utf-8?q?uam=2C_sit_amet_volutpat_augue_pellentesque_vel=2E_Aliquam_vel_?=
+ =?utf-8?q?justo_nisl=2E_Curabitur_quis_mi_viverra=2C_hendrerit_tortor_ut?=
+ =?utf-8?q?=2C_lobortis_metus=2E_Nulla_ac_tellus_est=2E_Vestibulum_ante_ip?=
+ =?utf-8?q?sum_primis_in_faucibus_orci_luctus_et_ultrices_posuere_cubilia_?=
+ =?utf-8?q?Curae=3B_Proin_lobortis_fermentum_libero_sit_amet_euismod=2E=3C?=
+ =?utf-8?q?/p=3E=0D=0A=3Cp=3EAenean_vestibulum_quam_nec_mauris_vehicula=2C?=
+ =?utf-8?q?_eu_fringilla_lectus_commodo=2E_In_consectetur=2C_augue_non_pha?=
+ =?utf-8?q?retra_dictum=2C_elit_ex_imperdiet_erat=2C_sit_amet_aliquet_lore?=
+ =?utf-8?q?m_velit_id_magna=2E_Etiam_condimentum_rhoncus_imperdiet=2E_Cura?=
+ =?utf-8?q?bitur_et_cursus_orci=2C_ac_venenatis_ipsum=2E_In_dignissim_a_es?=
+ =?utf-8?q?t_sed_sagittis=2E_Sed_sapien_ipsum=2C_iaculis_ac_eros_ut=2C_ege?=
+ =?utf-8?q?stas_iaculis_lectus=2E_Integer_fermentum_rutrum_blandit=2E_Vest?=
+ =?utf-8?q?ibulum_et_dictum_velit=2C_a_rutrum_nunc=2E_Curabitur_vitae_mole?=
+ =?utf-8?q?stie_tortor=2E_Nam_porttitor_luctus_nisl=2C_sed_tincidunt_risus?=
+ =?utf-8?q?_fermentum_non=2E_Maecenas_consectetur_maximus_eros=2C_id_vehic?=
+ =?utf-8?q?ula_mi=2E_Etiam_tortor_lectus=2C_molestie_in_facilisis_non=2C_s?=
+ =?utf-8?q?ollicitudin_sed_augue=2E_Nam_vel_metus_convallis=2C_pulvinar_me?=
+ =?utf-8?q?tus_eu=2C_pretium_ipsum=2E_Suspendisse_dui_justo=2C_molestie_no?=
+ =?utf-8?q?n_interdum_ut=2C_rhoncus_et_ligula=2E_Class_aptent_taciti_socio?=
+ =?utf-8?q?squ_ad_litora_torquent_per_conubia_nostra=2C_per_inceptos_himen?=
+ =?utf-8?q?aeos=2E=3C/p=3E=0D=0A=3Cp=3E=C2=A0=3C/p=3E?=
+audience: Professionals||Beginner||Advanced
+speaker: David Bain
+email: david@alteroo.com
+speaker_biography: =?utf-8?q?=3Cp=3EHe_speaks_about_things_and_also_does_other_stuff=2E?=
+ =?utf-8?q?=C2=A0=3C/p=3E?=
+title: Building the PythonJamaica Website
+description: In this talk we explore the blah of why we did blah
+subjects: 
+language: en-gb
+effective: 2015-10-14T21:37:00
+expires: 
+creators: admin
+contributors: 
+rights: 
+allow_discussion: 
+lanyrd: http://blah.com/adfaere
+Portal-Type: talk
+

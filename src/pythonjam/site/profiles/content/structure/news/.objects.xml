@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Collection">aggregator</record>
+  <record type="News Item">copy2_of_training-running</record>
+  <record type="News Item">copy_of_training-running</record>
+  <record type="News Item">training-running</record>
+</manifest>

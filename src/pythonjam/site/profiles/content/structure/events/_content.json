@@ -1,0 +1,15 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "Site Events", 
+    "exclude_from_nav": false, 
+    "id": "events", 
+    "language": "en-gb", 
+    "nextPreviousEnabled": false, 
+    "plone.uuid": "46b702ed078f48aaabcbdcdf4dc69744", 
+    "relatedItems": [], 
+    "rights": "", 
+    "title": "Events"
+}

@@ -1,0 +1,31 @@
+hot_news: False
+title: Breath taking view
+description: There's a breath taking view here
+subjects: 
+language: en-gb
+effective: 2015-10-10T12:27:00
+expires: 
+creators: admin
+contributors: 
+rights: 
+allow_discussion: 
+id: copy2_of_training-running
+exclude_from_nav: False
+relatedItems: 
+image_caption: The view
+changeNote: 
+subjects: 
+language: en-gb
+query: 
+sort_on: 
+sort_reversed: False
+limit: 1000
+item_count: 30
+customViewFields: Title||Creator||Type||ModificationDate
+lanyrd: 
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Portal-Type: News Item
+
+<p> </p>
+<p>I like to talk about breath taking views</p>

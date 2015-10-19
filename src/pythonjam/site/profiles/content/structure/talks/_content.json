@@ -1,0 +1,15 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "description": "", 
+    "effective": "2015-10-14 21:37:45", 
+    "exclude_from_nav": false, 
+    "id": "talks", 
+    "language": "en-gb", 
+    "nextPreviousEnabled": false, 
+    "plone.uuid": "0443c92c6e864847a00be9bed866a7ce", 
+    "relatedItems": [], 
+    "title": "Talks"
+}

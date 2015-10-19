@@ -1,0 +1,27 @@
+{
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "description": "Site News", 
+    "exclude_from_nav": false, 
+    "id": "aggregator", 
+    "item_count": 30, 
+    "language": "en-gb", 
+    "limit": 1000, 
+    "plone.uuid": "05aebe3521ad41f684e2a5df2ef3757a", 
+    "query": [
+        "{'i': u'portal_type', 'o': u'plone.app.querystring.operation.selection.is', 'v': [u'News Item']}", 
+        "{'i': u'review_state', 'o': u'plone.app.querystring.operation.selection.is', 'v': [u'published']}"
+    ], 
+    "relatedItems": [], 
+    "sort_on": "effective", 
+    "sort_reversed": true, 
+    "title": "News"
+}

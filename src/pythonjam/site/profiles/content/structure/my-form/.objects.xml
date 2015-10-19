@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="FormMailerAdapter">mailer</record>
+  <record type="FormStringField">replyto</record>
+  <record type="FormStringField">topic</record>
+  <record type="FormTextField">comments</record>
+  <record type="FormThanksPage">thank-you</record>
+</manifest>

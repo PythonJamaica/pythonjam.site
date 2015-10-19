@@ -1,0 +1,4 @@
+graft src/pythonjam
+graft docs
+include *.rst
+global-exclude *.pyc

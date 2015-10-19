@@ -1,0 +1,39 @@
+{
+    "changeNote": "", 
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "description": "Training is running", 
+    "effective": "2015-10-10 12:27:00", 
+    "exclude_from_nav": false, 
+    "hot_news": false, 
+    "id": "training-running", 
+    "image": {
+        "contenttype": "image/png", 
+        "file": "_field_image_pythonlogo.png", 
+        "filename": "pythonlogo.png"
+    }, 
+    "image_caption": "Learning Plone", 
+    "item_count": 30, 
+    "language": "en-gb", 
+    "limit": 1000, 
+    "plone.uuid": "45590a3860664c0bbbf5447fdb9bff0a", 
+    "query": [
+        "{u'i': u'portal_type', u'o': u'plone.app.querystring.operation.selection.any', u'v': [u'Folder']}"
+    ], 
+    "relatedItems": [], 
+    "sort_reversed": false, 
+    "text": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_text.htm"
+    }, 
+    "title": "Training running"
+}

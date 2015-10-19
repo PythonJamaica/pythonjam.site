@@ -1,0 +1,6 @@
+[report]
+include =
+    src/pythonjam/*
+omit =
+    */test*
+    */upgrades/*

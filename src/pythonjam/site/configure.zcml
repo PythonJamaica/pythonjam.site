@@ -1,0 +1,58 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="pythonjam.site">
+
+  <includeDependencies package="." />
+
+  <!-- <include package="transmogrify.dexterity.pipelines"  /> -->
+  <i18n:registerTranslations directory="locales" />
+
+  <include package=".browser" />
+  <include package=".theme"/>
+
+  <genericsetup:registerProfile
+      name="default"
+      title="pythonjam.site"
+      directory="profiles/default"
+      description="Installs the pythonjam.site add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+   <genericsetup:registerProfile
+        name="import_content"
+        title="pythonjam.site: import site content"
+        directory="profiles/content"
+        description="import site content for the site"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+  <genericsetup:importStep
+      name="pythonjam.site-postInstall"
+      title="pythonjam.site post_install import step"
+      description="Post install import step from pythonjam.site"
+      handler=".setuphandlers.post_install">
+  </genericsetup:importStep>
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="pythonjam.site"
+      directory="profiles/uninstall"
+      description="Uninstalls the pythonjam.site add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="pythonjam.site-uninstall"
+      title="pythonjam.site uninstall import step"
+      description="Import step run during ininstalling pythonjam.site"
+      handler=".setuphandlers.uninstall">
+  </genericsetup:importStep>
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="pythonjam.site-hiddenprofiles" />
+
+</configure>

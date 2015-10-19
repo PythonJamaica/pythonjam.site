@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <replace css:theme-children=".gl-whats-happening" 
+             css:content-children="#content-core" 
+             href="upcoming/aggregator"/>
+             
+    <drop css:theme=".banner" css:if-not-content=".section-blog"/>
+    <drop css:theme=".portraitphoto" css:if-not-content=".portaltype-blog-item,.portaltype-blog_post"/>
+    <drop css:content=".authorportrait" />
+    <replace css:theme=".portraitphoto" 
+             css:content=".portraitPhoto" method="raw"
+             css:if-content=".portaltype-blog-item,.portaltype-blog_post" />
+    <copy attributes="style" css:content=".blog-background" css:theme=".banner" />
+
+    <drop css:content=".documentFirstHeading" 
+             css:if-content=".portaltype-blog-item,.portaltype-blog_post" />
+    <drop css:content=".leadImage"
+         css:if-content=".portaltype-blog-item,.portaltype-blog_post" />
+    <drop css:content=".documentDescription" 
+             css:if-content=".portaltype-blog-item,.portaltype-blog_post" />
+       
+       
+     <replace css:theme-children=".main .light-bg">
+         <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PythonJamaica" data-widget-id="648476782308532224">Tweets by @PythonJamaica</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+     </replace>      
+<after css:theme-children="body > head" method="raw">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css" />
+</after>
+<after css:theme-children="body">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
+   <script>
+      $(document).ready(function(){
+          hljs.initHighlightingOnLoad();
+      });
+  </script>
+
+ 
+</after>
+
+    
+</rules>

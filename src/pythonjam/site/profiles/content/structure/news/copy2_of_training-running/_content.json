@@ -1,0 +1,39 @@
+{
+    "changeNote": "", 
+    "contributors": [], 
+    "creators": [
+        "admin"
+    ], 
+    "customViewFields": [
+        "Title", 
+        "Creator", 
+        "Type", 
+        "ModificationDate"
+    ], 
+    "description": "There's a breath taking view here", 
+    "effective": "2015-10-10 12:27:00", 
+    "exclude_from_nav": false, 
+    "hot_news": false, 
+    "id": "copy2_of_training-running", 
+    "image": {
+        "contenttype": "image/png", 
+        "file": "_field_image_signs-nots.png", 
+        "filename": "signs-nots.png"
+    }, 
+    "image_caption": "The view", 
+    "item_count": 30, 
+    "language": "en-gb", 
+    "limit": 1000, 
+    "plone.uuid": "d8e1e08143e544ae8d754a19dcd5323c", 
+    "query": [
+        "{u'i': u'portal_type', u'o': u'plone.app.querystring.operation.selection.any', u'v': [u'Folder']}"
+    ], 
+    "relatedItems": [], 
+    "sort_reversed": false, 
+    "text": {
+        "contenttype": "text/html", 
+        "encoding": "utf-8", 
+        "file": "_field_text.htm"
+    }, 
+    "title": "Breath taking view"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="talk">building-the-pythonjamaica-website</record>
+  <record type="talk">tryton</record>
+  <record type="talk">twitter-with-python</record>
+  <record type="talk">python-pgsql</record>
+</manifest>
