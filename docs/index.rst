@@ -2,6 +2,11 @@
 PythonJamaica Website Documentation
 =====================================
 
+Quick Start
+---------------
+
+   developer/dev-quickstart
+
 Site Administration Documentation
 ------------------------------------
 
@@ -18,6 +23,4 @@ Developer Documentation
 .. toctree::
    :hidden::
    
-   nutshell
-   developer/dev-quickstart
    developer/site-data
