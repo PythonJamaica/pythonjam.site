@@ -36,22 +36,6 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    bin/pulldevdata
 
 
-Installation
--------------
-
-For production you can install pythonjam.site by adding it to your buildout::
-
-    [buildout]
-
-    ...
-
-    eggs =
-        pythonjam.site
-
-
-and then running ``bin/buildout``
-
-
 Contribute
 ----------
 
