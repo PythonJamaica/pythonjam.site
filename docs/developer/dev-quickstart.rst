@@ -12,7 +12,7 @@ Start by creating a workspace (the default is fine).
 Create a new workspace and under "Clone from Git" use the following git repo URL
 https://github.com/PythonJamaica/pythonjam.site.git
 
-.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/createnewworkspace.png
+.. image:: ../createnewworkspace.png
 
 Then run the following commands in a terminal::
 
@@ -36,12 +36,12 @@ This will launch the site, once you see "INFO Zope Ready to handle requests"
 
 From the IDE click 1) "Preview running app" and 2) click to "pop out in a new window"
 
-.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/previewrunningapp.png
+.. image:: ../previewrunningapp.png
 
 
 You can now to view your Plone site. This will reveal a working copy of the PythonJamaica site.
 
-.. image:: https://github.com/PythonJamaica/pythonjam.site/blob/master/docs/clicktopreview.png
+.. image:: ../clicktopreview.png
 
 Logging in
 ~~~~~~~~~~~~~~~
