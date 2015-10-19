@@ -7,6 +7,11 @@ Cloud9 IDE Quickstart
 To get started with development we recommend using Cloud9 IDE.
 It is the fastest way to get started developing on the PythonJamaica website
 
+.. _Watch the demo video: https://drive.google.com/a/alteroo.com/file/d/0B1mqNRWnzBQ2MVFyalJmcFBZVzA/view
+
+Follow our guide below:
+
+
 Step 1 - Start workspace
 ```````````````````````````
 Start by creating a workspace (the default is fine).
