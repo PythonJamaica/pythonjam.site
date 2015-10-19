@@ -2,16 +2,30 @@
 
 SANITIZED_DIR=${buildout:directory}/sanitized
 DATADEFANGED=${buildout:directory}/var/filestorage/Data.fs.defanged 
+DATA=${buildout:directory}/var/filestorage/Data.fs
+DATABACKUP=${buildout:directory}/var/filestorage/Data.fs.backup
 BLOBDATA=${buildout:directory}/var/blobstorage
+INSTANCE=${buildout:directory}/bin/instance
 
 echo "----> defanging the Data.fs"
 ${buildout:directory}/bin/defang
+
+echo "----> cleaning up the site"
+echo "----> back up original data"
+mv $DATA $DATABACKUP
+mv $DATADEFANGED $DATA
+$INSTANCE --object-path=pythonjam run scripts/remove_members.py
+
+echo "----> restore original data"
+mv $DATA $DATADEFANGED
+mv $DATABACKUP $DATA
 
 echo "----> creating sanitized directory structure"
 mkdir -p $SANITIZED_DIR/var/filestorage
 
 echo "----> removing old blobstorage from sanitized directory"
 rm -rf $SANITIZED_DIR/var/blobstorage
+
 
 echo "----> moving sanitized Data.fs to sanitized directory"
 mv $DATADEFANGED $SANITIZED_DIR/var/filestorage/Data.fs
@@ -22,6 +36,7 @@ cp -r $BLOBDATA $SANITIZED_DIR/var
 echo "----> packaging the site data"
 cd $SANITIZED_DIR
 tar cfz pythonjam.site.data.tar.gz var
+
 
 echo "You can find the sanitized data in the sanitized/ directory"
 

@@ -10,6 +10,7 @@ Install the buildout
 Setup a virtualenv and run buildout (takes about 10 minutes)::
 
    virtualenv venv
+   venv/bin/pip install -U setuptools
    venv/bin/python bootstrap-buildout.py
    bin/buildout
 
