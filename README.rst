@@ -31,7 +31,7 @@ Then run the following commands in a terminal::
 Setup a virtualenv and run buildout (takes about 10 minutes)::
 
    virtualenv venv
-   venv/bin/python buildout-bootstrap.py
+   venv/bin/python bootstrap-buildout.py
    bin/buildout
 
 
