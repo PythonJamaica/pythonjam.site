@@ -33,6 +33,11 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    virtualenv venv
    venv/bin/python bootstrap-buildout.py
    bin/buildout
+
+.. note:: Sometimes `bin/buildout` fails on the first run, just run the `bin/buildout` command again
+
+Then install the development data and enable https::
+ 
    bin/pulldevdata
    bin/setuphttps
 
