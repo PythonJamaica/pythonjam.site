@@ -34,6 +34,7 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
    venv/bin/python bootstrap-buildout.py
    bin/buildout
    bin/pulldevdata
+   bin/setuphttps
 
 Starting the site
 ~~~~~~~~~~~~~~~~~~~
