@@ -9,7 +9,7 @@ It is used to power http://pythonjam.org.jm
 Documentation
 -------------
 
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://pythonjamaica-website.readthedocs.org/
+Full documentation is available online at http://pythonjamaica-website.readthedocs.org/
 
 
 Development
