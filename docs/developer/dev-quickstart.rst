@@ -62,6 +62,8 @@ You can now to view your Plone site. This will reveal a working copy of the Pyth
 
 .. image:: ../clicktopreview.png
 
+Access it on port 8080 and with username "admin" and password "admin"
+
 Stopping the site
 ~~~~~~~~~~~~~~~~~~~
 
