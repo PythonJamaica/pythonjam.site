@@ -94,6 +94,8 @@ Install the dependencies
 
 Setup a virtualenv and run buildout (takes about 40 minutes)::
 
+   git clone https://github.com/PythonJamaica/pythonjam.site
+   cd pythonjam.site
    virtualenv venv
    venv/bin/pip install -U setuptools
    venv/bin/python bootstrap-buildout.py
