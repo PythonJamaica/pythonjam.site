@@ -1,8 +1,8 @@
 Developer Quickstart
 ====================
 
-Cloud9 IDE Quickstart
------------------------------
+Cloud9 IDE Quickstart (10 - 15 minute setup time)
+-----------------------------------------------------
 
 To get started with development we recommend using Cloud9 IDE.
 It is the fastest way to get started developing on the PythonJamaica website
@@ -80,8 +80,8 @@ Use the following credentials::
     username: admin
     password: admin
 
-Ubuntu 14.04 Quickstart
--------------------------
+Ubuntu 14.04 Quickstart (40 to 60 minute setup time)
+-----------------------------------------------------------
 
 If you prefer to develop locally we've also tested the install
 on Ubuntu 14.04.
@@ -91,7 +91,7 @@ Install the dependencies
 
    sudo apt-get install build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev zlib1g-dev python-setuptools python-dev sudo apt-get install libjpeg62-dev libreadline-gplv2-dev python-imaging wv poppler-utils -y
 
-Setup a virtualenv and run buildout (takes about 10 minutes)::
+Setup a virtualenv and run buildout (takes about 40 minutes)::
 
    virtualenv venv
    venv/bin/pip install -U setuptools
