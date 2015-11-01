@@ -89,7 +89,8 @@ Here are the instructions.
 Install the dependencies
 ::
 
-   sudo apt-get install build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev zlib1g-dev python-setuptools python-dev sudo apt-get install libjpeg62-dev libreadline-gplv2-dev python-imaging wv poppler-utils -y
+   sudo apt-get install build-essential libssl-dev libxml2-dev libxslt1-dev libbz2-dev zlib1g-dev python-setuptools python-dev 
+   sudo apt-get install libjpeg62-dev libreadline-gplv2-dev python-imaging wv poppler-utils -y
 
 Setup a virtualenv and run buildout (takes about 40 minutes)::
 
