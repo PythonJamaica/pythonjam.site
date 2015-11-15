@@ -31,10 +31,15 @@ We are careful not to publish any data of our site users. To achieve this we
 
 ::
 
-   bin/sanitize
+    bin/sanitize
 
 The sanitized version of the data is located in a folder of your buildout called `sanitized`.
 
 It should be safe to share the resulting file with other developers: sanitized/pythonjam.site.data.tar.gz
 
+To release the latest data
+`````````````````````````````````
+
+* Upload the snapshot to https://github.com/PythonJamaica/pythonjam.site/releases
+* Update the link in templates/pulldevdata.in
 
