@@ -16,6 +16,7 @@ sanitized/
 bin/
 buildout-cache/
 develop-eggs/
+buildout.cfg
 parts/
 src/*
 !src/pythonjam

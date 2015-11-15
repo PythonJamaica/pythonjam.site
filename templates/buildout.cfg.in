@@ -1,0 +1,6 @@
+[buildout]
+# we default to extending the local config for development.  Change this when
+# releasing to dev/maint/prod
+extends =
+    profiles/dev.cfg
+#    profiles/prod.cfg
