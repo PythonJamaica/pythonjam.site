@@ -1,2 +1,0 @@
-#!/bin/bash
-${buildout:directory}/bin/supervisord

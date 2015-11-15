@@ -29,3 +29,5 @@ output.xml
 log.html
 report.html
 pythonjam*.tgz
+haproxy.conf
+supervisord.conf
