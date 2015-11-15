@@ -7,8 +7,6 @@ Cloud9 IDE Quickstart (10 - 15 minute setup time)
 To get started with development we recommend using Cloud9 IDE.
 It is the fastest way to get started developing on the PythonJamaica website
 
-.. _Watch the demo video: https://drive.google.com/a/alteroo.com/file/d/0B1mqNRWnzBQ2MVFyalJmcFBZVzA/view
-
 Follow our guide below:
 
 
@@ -32,6 +30,7 @@ Setup a virtualenv and run buildout (takes about 10 minutes)::
 
    virtualenv venv
    venv/bin/python bootstrap-buildout.py
+   cp templates/buildout.cfg.in buildout.cfg
    bin/buildout
 
 .. note:: Sometimes `bin/buildout` fails on the first run, just run the `bin/buildout` command again
