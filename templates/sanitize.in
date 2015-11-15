@@ -37,6 +37,9 @@ echo "----> packaging the site data"
 cd $SANITIZED_DIR
 tar cfz pythonjam.site.data.tar.gz var
 
+echo "----> cleaning up old var dir in sanitized data dir"
+rm -rf $SANITIZED_DIR/var
+
 
 echo "You can find the sanitized data in the sanitized/ directory"
 
