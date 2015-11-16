@@ -4,6 +4,8 @@ DEVDATA_URL=https://github.com/PythonJamaica/pythonjam.site/releases/download/20
 DEVDATA_TARBALL=pythonjam.site.data.tar.gz
 
 echo "----> pulling dev data"
+mkdir -p var
+cd var
 wget $DEVDATA_URL
 
 echo "----> unpacking dev data"
