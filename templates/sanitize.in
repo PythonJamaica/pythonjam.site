@@ -35,7 +35,8 @@ cp -r $BLOBDATA $SANITIZED_DIR/var
 
 echo "----> packaging the site data"
 cd $SANITIZED_DIR
-tar cfz pythonjam.site.data.tar.gz var
+cd var
+tar cfz pythonjam.site.data.tar.gz filestorage blobstorage
 
 echo "----> cleaning up old var dir in sanitized data dir"
 rm -rf $SANITIZED_DIR/var
