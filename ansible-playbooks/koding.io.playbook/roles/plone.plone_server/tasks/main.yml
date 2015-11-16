@@ -316,12 +316,18 @@
   stat: path={{ plone_instance_var_path }}/filestorage/Data.fs
   register: db_status
 
+- name: download Data
+  get_url: 
+    url=https://github.com/PythonJamaica/pythonjam.site/releases/download/20151019/pythonjam.site.data.tar.gz
+    dest=/tmp/pythonjam.site.data.tar.gz
+
 # Install Data.fs and blobstorage
 - name: Load Data.fs file
   when: not db_status.stat.exists
   unarchive:
     creates="{{ plone_instance_var_path }}/filestorage/Data.fs"
-    src="https://github.com/PythonJamaica/pythonjam.site/releases/download/20151019/pythonjam.site.data.tar.gz"
+    copy=no
+    src=/tmp/pythonjam.site.data.tar.gz
     dest="{{ plone_instance_var_path }}"
     owner={{ instance_config.plone_daemon_user }}
     group={{ instance_config.plone_group }}
