@@ -1,0 +1,24 @@
+---
+
+- name: Postfix present
+  apt: pkg=postfix state=present
+
+- name: Configure Postfix as forward-only server
+  template:
+    src=main.cf.j2
+    dest=/etc/postfix/main.cf
+    owner=root
+    group=root
+    mode=644
+  notify:
+  - reload postfix
+
+- name: Set aliases
+  template:
+    src=aliases
+    dest=/etc/aliases
+    owner=root
+    group=root
+    mode=644
+  notify:
+  - new aliases

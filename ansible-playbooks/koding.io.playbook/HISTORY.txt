@@ -1,0 +1,62 @@
+1.2.0 (unreleased)
+
+- Add test framework.
+
+- Refactor to allow multiple plone instances per server. Document.
+  Involved changes in several included roles.
+  Requires plone.plone_server 1.2.0+.
+
+1.1.3 unreleased
+
+- Fix firewall.yml to work without configure.yml.
+
+- Refactor haproxy and varnish roles to allow support for multiple Plone backends.
+
+- Factor all defaults into roles or jinja2 default filters.
+  The goal is to make Ansible's inventory variables scheme work as an alternative to local-configure.yml.
+
+1.1.2 2015-10-13
+
+- Set client_max_body for nginx to 2M, allow override.
+
+- Fail if Ansible version is < 1.2. We might work with earlier,
+  but haven't tested.
+
+- Updated plone.plone_server requirement to 1.1.3.
+  Version for the full kit updated to match.
+
+1.1.1 2015-07-28
+
+- Updated plone.plone_server requirement to 1.1.1.
+  Version for the full kit updated to match.
+
+- Add a task to set the timezone.
+
+1.0 -2015-06-15
+
+- Update ansible galaxy requirement versions to latest.
+
+- Add restart_script role. It creates a zeocluster restart script
+  at zeocluster/scripts/restart_clients.sh.
+
+- Update to use Plone 4.3.6.
+
+1.0b5 - 2015-01-27
+
+- Bump plone_server requirement version.
+
+1.0b4 - 2015-01-07
+
+- Add X-Forwarded-For and X-Real-IP headers to Nginx setup.
+
+1.0b3 - 2014-12-17
+
+- Update plone_server role requirement to 1.0b6, which has a fix for bootstrap/setuptools problem.
+
+1.0b2 - 2014-12-08
+
+- Update for use with plone_server 1.0b5.
+
+1.0b1 - 2014-12-03
+
+- first tagged release

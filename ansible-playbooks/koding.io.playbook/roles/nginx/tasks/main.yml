@@ -1,0 +1,53 @@
+---
+
+- name: Install nginx
+  apt:
+    name=nginx
+    state=present
+
+- name: Make sure sample host is absent
+  file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+  notify: restart nginx
+
+- name: Make sure /etc/nginx/ssl exists
+  file:
+    path: /etc/nginx/ssl
+    state: directory
+    mode: 0755
+
+- name: Create zope-style virtual hosts
+  template:
+    src: host.j2
+    dest: /etc/nginx/sites-enabled/{{ item.protocol|default('http') }}_{{ item.hostname|default(inventory_hostname)|replace('.', '_') }}
+    mode: 0644
+  with_items: "{{ playbook_plones|map(attribute='webserver_virtualhosts')|list }}"
+  notify: restart nginx
+
+- name: Copy certificate files
+  copy:
+    src: "{{ item.certificate_file }}"
+    dest: "/etc/nginx/ssl/{{ item.hostname }}.crt"
+    mode: 0444
+  with_items: "{{ playbook_plones|map(attribute='webserver_virtualhosts')|list }}"
+  when: item.certificate_file is defined
+  notify: restart nginx
+
+- name: Copy key files
+  copy:
+    src: "{{ item.key_file }}"
+    dest: "/etc/nginx/ssl/{{ item.hostname }}.key"
+    mode: 0400
+  with_items: "{{ playbook_plones|map(attribute='webserver_virtualhosts')|list }}"
+  when: item.key_file is defined
+  notify: restart nginx
+
+- name: nginx started
+  service:
+    name=nginx
+    state=started
+    enabled=yes
+
+- name: nginx running
+  command: /usr/sbin/service nginx status
