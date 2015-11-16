@@ -21,25 +21,25 @@ mv $DATA $DATADEFANGED
 mv $DATABACKUP $DATA
 
 echo "----> creating sanitized directory structure"
-mkdir -p $SANITIZED_DIR/var/filestorage
+mkdir -p $SANITIZED_DIR/filestorage
 
 echo "----> removing old blobstorage from sanitized directory"
-rm -rf $SANITIZED_DIR/var/blobstorage
+rm -rf $SANITIZED_DIR/blobstorage
 
 
 echo "----> moving sanitized Data.fs to sanitized directory"
-mv $DATADEFANGED $SANITIZED_DIR/var/filestorage/Data.fs
+mv $DATADEFANGED $SANITIZED_DIR/filestorage/Data.fs
 
 echo "----> copying blobstorage"
-cp -r $BLOBDATA $SANITIZED_DIR/var
+cp -r $BLOBDATA $SANITIZED_DIR
 
 echo "----> packaging the site data"
 cd $SANITIZED_DIR
-cd var
 tar cfz pythonjam.site.data.tar.gz filestorage blobstorage
 
 echo "----> cleaning up old var dir in sanitized data dir"
-rm -rf $SANITIZED_DIR/var
+rm -rf $SANITIZED_DIR/filestorage
+rm -rf $SANITIZED_DIR/blobstorage
 
 
 echo "You can find the sanitized data in the sanitized/ directory"
