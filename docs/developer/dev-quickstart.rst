@@ -29,8 +29,8 @@ Then run the following commands in a terminal::
 Setup a virtualenv and run buildout (takes about 10 minutes)::
 
    virtualenv venv
-   venv/bin/python bootstrap-buildout.py
    cp templates/buildout.cfg.in buildout.cfg
+   venv/bin/python bootstrap-buildout.py
    bin/buildout
 
 .. note:: Sometimes `bin/buildout` fails on the first run, just run the `bin/buildout` command again
@@ -97,8 +97,8 @@ Setup a virtualenv and run buildout (takes about 40 minutes)::
    cd pythonjam.site
    virtualenv venv
    venv/bin/pip install -U setuptools
-   venv/bin/python bootstrap-buildout.py
    cp templates/buildout.cfg.in buildout.cfg
+   venv/bin/python bootstrap-buildout.py
    bin/buildout
 
 
