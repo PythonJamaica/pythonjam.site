@@ -4,3 +4,6 @@
 extends =
     profiles/dev.cfg
 #    profiles/prod.cfg
+
+[versions]
+lxml = 2.3
