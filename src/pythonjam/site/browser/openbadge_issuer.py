@@ -1,6 +1,7 @@
 import json
 from Products.Five import BrowserView
 
+
 class OpenBadgeIssuerJSON(BrowserView):
 
     def __call__(self):
