@@ -16,5 +16,19 @@
       name="pythonjam.site"
       directory="static"
       />
+      
+  <browser:page
+       name="badge_view"
+       for="*"
+       permission="zope2.View"
+       class=".badge_view.BadgeView"
+    />
+    
+  <browser:page
+       name="openbadge_issuer.json"
+       for="*"
+       permission="zope2.View"
+       class=".openbadge_issuer.OpenBadgeIssuerJSON"
+    />
 
 </configure>
