@@ -48,7 +48,7 @@ setup(
         'z3c.jbot',
         'Products.PloneFormGen',
         'collective.jbot',
-        'collective.workspace',
+        'collective.badge',
     ],
     extras_require={
         'test': [
