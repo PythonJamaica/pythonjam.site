@@ -4,7 +4,7 @@
       <description/>
       <title>Image</title>
     </field>
-    <field name="criteria" type="plone.app.textfield.RichText">
+    <field name="criteria" type="zope.schema.Text">
       <description/>
       <title>Criteria</title>
     </field>
