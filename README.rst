@@ -26,7 +26,9 @@ https://github.com/PythonJamaica/pythonjam.site.git
 
 Then run the following commands in a terminal::
 
-   sudo apt-get install libxslt-dev libxml2-dev -y
+   sudo apt-get update
+   sudo apt-get install python-dev python-virtualenv libssl-dev libxml2-dev -y
+   sudo apt-get install  libxslt1-dev libbz2-dev python-tk python-gdbm -y
 
 Setup a virtualenv and run buildout (takes about 10 minutes)::
 
