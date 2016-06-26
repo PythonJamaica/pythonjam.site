@@ -29,8 +29,14 @@ Then run the following commands in a terminal::
    sudo apt-get update
    sudo apt-get install python-dev python-virtualenv libssl-dev libxml2-dev -y
    sudo apt-get install  libxslt1-dev libbz2-dev python-tk python-gdbm -y
+   
+Prime your workspace (takes about 10 minutes)::
+  
+   wget https://gist.githubusercontent.com/pigeonflight/1a5516f427da409ba033421119e98f0d/raw/07fceb309298ca13679c79b16fb9d494a3f9ec0f/prime-buildout.sh
+   chmod +x prime-buildout.sh
+   ./prime-buildout.sh
 
-Setup a virtualenv and run buildout (takes about 10 minutes)::
+Setup a virtualenv and run buildout (takes about 5 minutes)::
 
    virtualenv venv
    cp templates/buildout.cfg.in buildout.cfg
