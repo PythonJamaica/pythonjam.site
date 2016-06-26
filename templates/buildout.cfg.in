@@ -7,3 +7,4 @@ extends =
 
 [versions]
 lxml = 2.3
+flake8 =
