@@ -49,6 +49,7 @@ setup(
         'Products.PloneFormGen',
         'collective.jbot',
         'collective.workspace',
+        'rapido.plone',
     ],
     extras_require={
         'test': [

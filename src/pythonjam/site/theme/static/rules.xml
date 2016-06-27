@@ -11,7 +11,7 @@
         <xi:include href="custom.xml" />
         <rules css:if-content="body.viewpermission-view, body.viewpermission-none">
         </rules>
-  <theme href="index.html" />
+  <theme href="http://pythonjamaicaconference.webflow.io/" />
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
   <rules css:if-content="#portal-top">
@@ -27,7 +27,7 @@
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head link[rel='shortcut icon']" />
     <!-- CSS -->
-    <after css:theme-children="head" css:content="head link" />
+    <before css:theme-children="head" css:content="head link" />
     <!-- Script -->
     <after css:theme-children="head" css:content="head script" />
   </rules>
