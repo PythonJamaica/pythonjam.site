@@ -17,6 +17,14 @@ A version of the sanitized data can be retrieved automatically using the followi
 
    bin/pulldevdata
 
+.. sidebar:: Using Rsync
+
+   if you are authorized you can pull the site data using
+   the following command::
+
+       bin/buildout -c rsync.cfg
+
+
 
 Releasing Site Data
 ---------------------
