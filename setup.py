@@ -50,6 +50,7 @@ setup(
         'collective.jbot',
         'collective.workspace',
         'rapido.plone',
+        'plone.app.mosaic'
     ],
     extras_require={
         'test': [
