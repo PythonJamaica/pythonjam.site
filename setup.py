@@ -50,7 +50,8 @@ setup(
         'collective.jbot',
         'collective.workspace',
         'rapido.plone',
-        'plone.app.mosaic'
+        'plone.app.mosaic',
+        'Products.QuickImporter'
     ],
     extras_require={
         'test': [
