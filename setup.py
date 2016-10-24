@@ -47,11 +47,13 @@ setup(
         'setuptools',
         'z3c.jbot',
         'Products.PloneFormGen',
+        'collective.easyform',
         'collective.jbot',
         'collective.workspace',
         'rapido.plone',
         'plone.app.mosaic',
-        'Products.QuickImporter'
+        'Products.QuickImporter',
+        'Products.CMFPlomino>=1.99999'
     ],
     extras_require={
         'test': [
