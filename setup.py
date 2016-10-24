@@ -47,7 +47,7 @@ setup(
         'setuptools',
         'z3c.jbot',
         'Products.PloneFormGen',
-        'collective.easyform',
+        'collective.easyform>=1.9999999',
         'collective.jbot',
         'collective.workspace',
         'rapido.plone',
