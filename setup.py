@@ -53,6 +53,7 @@ setup(
         'rapido.plone',
         'plone.app.mosaic',
         'Products.QuickImporter',
+        'conf.policy',
         'Products.CMFPlomino>=1.99999'
     ],
     extras_require={
