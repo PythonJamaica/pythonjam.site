@@ -11,7 +11,7 @@
         <xi:include href="custom.xml" />
         <rules css:if-content="body.viewpermission-view, body.viewpermission-none">
         </rules>
-  <theme href="http://pythonjamaicaconference.webflow.io/" />
+	<theme href="http://pythonjamaica2017.webflow.io/" />
   <notheme css:if-not-content="#visual-portal-wrapper" />
 
   <rules css:if-content="#portal-top">
