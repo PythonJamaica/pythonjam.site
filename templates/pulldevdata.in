@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEVDATA_URL=https://github.com/PythonJamaica/pythonjam.site/releases/download/20151019/pythonjam.site.data.tar.gz
+DEVDATA_URL=https://github.com/PythonJamaica/pythonjam.site/releases/download/jun252017/pythonjam.site.data.tar.gz
 DEVDATA_TARBALL=pythonjam.site.data.tar.gz
 
 echo "----> pulling dev data"
