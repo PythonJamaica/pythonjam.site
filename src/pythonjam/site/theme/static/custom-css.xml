@@ -4,16 +4,20 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xi="http://www.w3.org/2001/XInclude">
-    <!--
       <before css:theme-children="html head"> 
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="++plone++mosaic/mosaic-grid.css" />
     </before>
-    -->    
     <after css:theme-children="html head"> 
       <style>
       a[href^="http://webflow"] {display:none !important}
       a[href^="https://webflow"] {display:none !important}
       a:visited{text-decoration:none}
+      .mosaic-grid-row-yellow {
+          background-color: #ffd43b;
+	  }
+       <!--
+      .mosaic-grid .w-container{max-width:100% !important}
+       -->
 
     </style>
    </after>
