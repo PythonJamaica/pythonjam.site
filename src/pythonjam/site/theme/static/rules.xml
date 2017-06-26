@@ -9,6 +9,7 @@
         <xi:include href="++theme++barceloneta/backend.xml" />
         <xi:include href="gloss.xml" />
         <xi:include href="custom.xml" />
+        <xi:include href="custom-css.xml" />
         <rules css:if-content="body.viewpermission-view, body.viewpermission-none">
         </rules>
 	<theme href="http://pythonjamaica2017.webflow.io/" />
