@@ -50,6 +50,7 @@ setup(
         'collective.easyform>=1.9999999',
         'collective.jbot',
         'collective.workspace',
+        'lineage.themeselection',
         'rapido.plone',
         'plone.app.mosaic',
         'Products.QuickImporter',
